@@ -21,7 +21,7 @@ body {
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial;
     display: flex;
     justify-content: space-between;
     margin: -10px;
@@ -39,22 +39,22 @@ a {
 .section-one {
     background-color: #1F2937;
     color: #F9FAF8;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial;
     height: 400px;
     width: 101vw;
     margin: -10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 48px;
 }
 
 .item-one,
 .item-two {
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
-    height: 150px;
+    width: 450px;
+    height: 250px;
 }
 
 .item-two {
@@ -62,3 +62,14 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-family: 'Roboto', Arial;
+    font-weight: 500;
+    width: 8em;
+    border-radius: 10px; /*This makes for rounded corners! Yay! */
+    border: none; /* This removes the default beveled edge! Woo! */
+}
+
