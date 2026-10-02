@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', Arial;
-    
+    /* charged from "Roboto" to 'Roboto'. Always use single ticks */
 }
 
 .logo {
@@ -8,6 +8,7 @@ body {
     display: flex;
     align-items: center;
     padding-left: 150px;
+    font-weight: 900;
 }
 
 .links {
@@ -23,6 +24,7 @@ body {
     font-family: 'Roboto';
     display: flex;
     justify-content: space-between;
+    margin: -10px;
 }
 
 ul {
@@ -34,5 +36,29 @@ a {
     color:  #d1d1d1;
 }
 
+.section-one {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: 'Roboto';
+    height: 400px;
+    width: 101vw;
+    margin: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 
+.item-one,
+.item-two {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 150px;
+}
 
+.item-two {
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
