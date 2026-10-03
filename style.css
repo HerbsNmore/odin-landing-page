@@ -73,3 +73,28 @@ button {
     border: none; /* This removes the default beveled edge! Woo! */
 }
 
+.section-two {
+    display: flex;
+    font-family: 'Roboto', Arial;
+    height: 400px;
+    width: 101vw;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.item-three {
+    font-size: 32px; 
+    color: #1F2937; 
+    font-weight: 900;
+}
+
+.item-four {
+    font-size: 18px;
+    color: rgb(80, 79, 79);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 800px;
+}
