@@ -24,7 +24,10 @@ body {
     font-family: 'Roboto', Arial;
     display: flex;
     justify-content: space-between;
-    margin: -10px;
+    padding: 20px;
+    margin-right: -31px;
+    margin-top: -10px;
+    margin-left: -10px;
 }
 
 ul {
@@ -42,11 +45,12 @@ a {
     font-family: 'Roboto', Arial;
     height: 400px;
     width: 100vw;
-    margin: -10px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 48px;
+    margin-right: -21px;
+    margin-left: -10px;
 }
 
 .item-one,
@@ -130,8 +134,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: -10px;
-
 }
 
 .item-five {
@@ -160,7 +162,7 @@ button {
     background-color: #3882F6;
     color: white;
     width: 1000px;
-    height: 200px;
+    height: 150px;
     display: flex;
     justify-content: center;
     border-radius: 10px;
