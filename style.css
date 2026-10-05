@@ -41,7 +41,7 @@ a {
     color: #F9FAF8;
     font-family: 'Roboto', Arial;
     height: 400px;
-    width: 101vw;
+    width: 100vw;
     margin: -10px;
     display: flex;
     justify-content: center;
@@ -77,7 +77,7 @@ button {
     display: flex;
     font-family: 'Roboto', Arial;
     height: 400px;
-    width: 101vw;
+    width: 100vw;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -121,3 +121,29 @@ button {
     padding-right: 3px;
     text-align: center;
 } 
+
+.section-three {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -10px;
+
+}
+
+.item-five {
+    display: flex;
+    width: 800px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    flex-direction: column;
+}
+
+.item-six {
+    display: flex;
+    justify-content: flex-end;
+}
