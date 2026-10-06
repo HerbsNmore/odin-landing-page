@@ -11,6 +11,7 @@ body {
     align-items: center;
     padding-left: 150px;
     font-weight: 900;
+    font-family: 'Playfair Display', 'Roboto';
     
 }
 
@@ -77,12 +78,13 @@ button {
     border-radius: 10px; /*This makes for rounded corners! Yay! */
     border: none; /* This removes the default beveled edge! Woo! */
     padding: 5px;
+    border: solid white 2px;
 }
 
 .section-two {
     display: flex;
     font-family: 'Roboto', Arial;
-    height: 400px;
+    height: 500px;
     width: 100vw;
     justify-content: center;
     align-items: center;
@@ -92,7 +94,7 @@ button {
 
 .item-three {
     font-size: 32px; 
-    color: #1F2937; 
+    color: #7e273d;
     font-weight: 900;
 }
 
@@ -108,7 +110,7 @@ button {
 }
 
 .img {
-    border: solid 4px #3882F6;
+    border: solid 4px #d43a61;
     border-radius: 10px;
     width: 125px;
     height: 125px;
@@ -144,11 +146,15 @@ button {
     font-style: italic;
     font-size: 36px;
     flex-direction: column;
+    font-family: 'Playfair Display', 'Roboto'; 
 }
 
 .item-six {
     display: flex;
     justify-content: flex-end;
+    font-size: 24px; 
+    font-weight: 700; 
+    font-style: normal;
 }
 
 .section-four {
@@ -160,13 +166,14 @@ button {
 }
 
 .blue-box {
-    background-color: #3882F6;
+    background-color: #d43a61;
     color: white;
     width: 1000px;
     height: 150px;
     display: flex;
     justify-content: center;
     border-radius: 10px;
+    gap: 20px;
 }
 
 .item-seven {
@@ -174,6 +181,7 @@ button {
     flex-direction: column;
     justify-content: center;
     padding: 50px;
+    gap: 5px;
 }
 
 .item-eight {
@@ -182,14 +190,15 @@ button {
 }
 
 .button-two {
-    border: solid 2px;
+    border: solid white 2px;
     width: 8em;
     height: 2em;
     border-radius: 10px;
+    color: #5c1c2c;
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #5c1c2c;
     color: #E5E7EB;
     width: 100vw;
     height: 70px; 
