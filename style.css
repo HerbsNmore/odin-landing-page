@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto', Arial;
     /* charged from "Roboto" to 'Roboto'. Always use single ticks */
+    margin: 0;
+    padding: 0; /* adding this margin 0 and padding 0 removes the browser's default 8px margin */
 }
 
 .logo {
@@ -9,6 +11,7 @@ body {
     align-items: center;
     padding-left: 150px;
     font-weight: 900;
+    
 }
 
 .links {
@@ -25,9 +28,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    margin-right: -31px;
-    margin-top: -10px;
-    margin-left: -10px;
+    margin-right: -15px;
 }
 
 ul {
@@ -49,8 +50,6 @@ a {
     justify-content: center;
     align-items: center;
     gap: 48px;
-    margin-right: -21px;
-    margin-left: -10px;
 }
 
 .item-one,
@@ -103,10 +102,9 @@ button {
     max-width: 700px;
     flex-flow: wrap;
     justify-content: center;
-    
 }
 
-#img {
+.img {
     border: solid 4px #3882F6;
     border-radius: 10px;
     width: 125px;
@@ -115,7 +113,7 @@ button {
     flex-grow: 0;
 }
 
-#txt {
+.txt {
     display: flex;
     width: 130px;
     height: 125px;
@@ -173,7 +171,6 @@ button {
     flex-direction: column;
     justify-content: center;
     padding: 50px;
-
 }
 
 .item-eight {
@@ -186,5 +183,20 @@ button {
     width: 8em;
     height: 2em;
     border-radius: 10px;
-    
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    width: 100vw;
+    height: 70px; 
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+
+
+/* You've reached the end! Good job! */
